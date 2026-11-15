@@ -37,3 +37,13 @@
 
 /* Nutrition education and culinary links */
 .feature{display:flex;flex-direction:column}.feature-action{align-self:flex-start;margin-top:auto;margin-bottom:4px;padding:10px 24px}.education-main{background:#f7f9f5;min-height:75vh}.education-hero{padding:72px 0 32px}.education-hero h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.15;margin:12px 0}.education-hero p{max-width:780px}.education-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;padding-bottom:72px}.education-panel{background:#fff;border:1px solid #e5ebea;border-radius:20px;padding:28px}.education-panel h2{font-size:1.5rem;line-height:1.3;margin:0 0 12px}.education-panel h3{font-size:1.05rem;margin:20px 0 5px}.education-panel p,.education-panel li{color:#52647a}.education-panel ul{padding-left:22px}.education-panel.wide{grid-column:1/-1}.coming-soon{text-align:center;max-width:680px;margin:0 auto;padding:100px 0 150px}.coming-soon h1{font-size:clamp(2.4rem,6vw,4.2rem)}@media(max-width:760px){.education-grid{grid-template-columns:1fr}.education-panel.wide{grid-column:auto}}
+
+/* Center the three What Guides Us buttons; local-supports page */
+.approach .feature-action{align-self:center;text-align:center;min-width:145px;margin-top:auto}
+.supports-intro{max-width:850px;color:var(--muted);font-size:1.1rem}
+.supports-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:28px 0 48px}
+.support-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:25px;min-width:0}
+.support-card h2{font-size:1.3rem;line-height:1.3;margin:0 0 14px}
+.support-card dl{margin:0}.support-card dt{font-size:.75rem;text-transform:uppercase;letter-spacing:.07em;font-weight:800;color:var(--green);margin-top:13px}.support-card dd{margin:3px 0 0;line-height:1.5;overflow-wrap:anywhere}.support-card a{color:#326ba9;text-decoration:underline}
+.supports-note{background:#fff9e5;border-left:4px solid #ffcc00;border-radius:10px;padding:18px 22px;margin:20px 0 30px}.supports-checklist{background:#fff;border-radius:18px;padding:26px;margin-bottom:70px}.supports-checklist ul{columns:2;line-height:1.9}
+@media(max-width:900px){.supports-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){.supports-grid{grid-template-columns:1fr}.supports-checklist ul{columns:1}}
