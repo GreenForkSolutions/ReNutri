@@ -23,10 +23,3 @@
 .resources .resource-content a.resource-action span{font-size:1.3em}
 @media(max-width:850px){.resources .resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:580px){.resources .resource-grid{grid-template-columns:1fr}.resources .resource-content{padding:22px}.resources .resource-content h3{font-size:28px}.resources .resource-content p{font-size:17px}.resources .resource-illustration{aspect-ratio:1.65}}
-
-/* What Guides Us: ReNutri illustration cards */
-.feature{padding:18px 18px 28px;overflow:hidden}
-.feature-illustration{width:100%;aspect-ratio:2 / 1.04;border-radius:16px;overflow:hidden;margin-bottom:22px;background:#f6f9f5}
-.feature-illustration img{display:block;width:100%;height:100%;object-fit:cover}
-.feature h3,.feature p{margin-left:12px;margin-right:12px}
-@media(max-width:580px){.feature-illustration{aspect-ratio:2 / 1.08}}
