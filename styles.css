@@ -47,3 +47,6 @@
 .support-card dl{margin:0}.support-card dt{font-size:.75rem;text-transform:uppercase;letter-spacing:.07em;font-weight:800;color:var(--green);margin-top:13px}.support-card dd{margin:3px 0 0;line-height:1.5;overflow-wrap:anywhere}.support-card a{color:#326ba9;text-decoration:underline}
 .supports-note{background:#fff9e5;border-left:4px solid #ffcc00;border-radius:10px;padding:18px 22px;margin:20px 0 30px}.supports-checklist{background:#fff;border-radius:18px;padding:26px;margin-bottom:70px}.supports-checklist ul{columns:2;line-height:1.9}
 @media(max-width:900px){.supports-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){.supports-grid{grid-template-columns:1fr}.supports-checklist ul{columns:1}}
+
+/* Homepage hero image replacement only */
+.hero-art .hero-smoothie-image{display:block;width:100%;height:auto;max-height:470px;object-fit:contain;border-radius:18px}
