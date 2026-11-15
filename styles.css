@@ -23,3 +23,7 @@
 .resources .resource-content a.resource-action span{font-size:1.3em}
 @media(max-width:850px){.resources .resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:580px){.resources .resource-grid{grid-template-columns:1fr}.resources .resource-content{padding:22px}.resources .resource-content h3{font-size:28px}.resources .resource-content p{font-size:17px}.resources .resource-illustration{aspect-ratio:1.65}}
+
+/* Restored What Guides Us illustrations */
+.feature-illustration{width:100%;aspect-ratio:2 / 1;overflow:hidden;border-radius:14px;margin-bottom:26px;background:#f7f9f5}
+.feature-illustration img{display:block;width:100%;height:100%;object-fit:cover}
