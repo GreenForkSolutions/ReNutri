@@ -27,3 +27,10 @@
 /* Restored What Guides Us illustrations */
 .feature-illustration{width:100%;aspect-ratio:2 / 1;overflow:hidden;border-radius:14px;margin-bottom:26px;background:#f7f9f5}
 .feature-illustration img{display:block;width:100%;height:100%;object-fit:cover}
+
+/* About Us page and founder section link */
+.founder-learn-more{margin-top:24px}
+.about-hero{background:#f7faf6;min-height:65vh}
+.about-hero h1{max-width:850px;font-size:clamp(38px,5vw,62px)}
+.about-hero p{font-size:18px;line-height:1.85;color:var(--muted);max-width:800px}
+.about-hero .btn{margin-top:16px}
