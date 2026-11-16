@@ -13,6 +13,13 @@
 /* Food Supports homepage navigation button */
 .nav-links a.food-supports-nav{display:inline-flex;align-items:center;justify-content:center;background:#FFCC00;color:#202020;padding:12px 20px;border-radius:100px;font-weight:750;text-decoration:none}
 .nav-links a.food-supports-nav:hover,.nav-links a.food-supports-nav:focus-visible{background:#E8B900;color:#202020;outline-offset:3px}
+
+/* Homepage navigation refinements: single-line desktop labels and green Recipes pill. */
+.nav-links{gap:clamp(8px,1.35vw,18px);white-space:nowrap}
+.nav-links a{white-space:nowrap}
+.nav-links a.recipes-nav{display:inline-flex;align-items:center;justify-content:center;background:#6CB444;color:#fff;padding:12px 20px;border-radius:100px;font-weight:750;text-decoration:none}
+.nav-links a.recipes-nav:hover,.nav-links a.recipes-nav:focus-visible{background:#57952e;color:#fff;outline-offset:3px}
+@media(max-width:1100px){.nav-links{white-space:normal}.nav-links a{white-space:normal}}
 </style>
 </head>
 <body>
@@ -20,7 +27,7 @@
 <header class="site-header"><div class="container nav-wrap">
 <a aria-label="ReNutri home" class="brand" href="#home"><img alt="ReNutri" class="official-logo" src="renutri-logo.png"/></a>
 <button aria-controls="nav-links" aria-expanded="false" aria-label="Open navigation" class="menu-toggle"><span></span><span></span><span></span></button>
-<nav aria-label="Main navigation" class="nav-links" id="nav-links"><a href="about.html">About</a><a href="#about">Our Approach</a><a href="#learn">Learn</a><a href="#recipes">Recipes</a><a href="personal-services.html">Personal Services</a><a href="organization-services.html">Organization Services</a><a class="food-supports-nav" href="local-supports.html">Food Supports</a><a class="nav-cta" href="#contact">Get in touch</a></nav>
+<nav aria-label="Main navigation" class="nav-links" id="nav-links"><a href="about.html">About</a><a href="#learn">Explore Our Services</a><a class="recipes-nav" href="#recipes">Recipes</a><a class="food-supports-nav" href="local-supports.html">Food Supports</a><a class="nav-cta" href="#contact">Get in touch</a></nav>
 </div></header>
 <main id="main">
 <section class="hero" id="home"><div class="container hero-grid"><div class="hero-copy"><div class="eyebrow"><span class="eyebrow-dot"></span> Food knowledge for everyday life</div><h1>Recovery starts with <em>nourishment.</em></h1><p>Discover practical nutrition education, everyday cooking skills, and accessible resources to help build a healthier foundation for recovery.</p><div class="actions"><a class="btn btn-primary" href="#learn">Explore Our Services <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#about">Discover ReNutri</a></div><div class="hero-note"><span class="note-icon">✳</span><span>Small steps. Real skills. Lasting possibilities.</span></div></div><div aria-label="Overhead view of a blender mixing a green smoothie, with Learn with confidence and Nourish your future labels" class="hero-art" role="img"><img alt="" class="hero-smoothie-image" src="renutri-green-smoothie-blender.png"/></div></div></section>
